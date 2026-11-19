@@ -1,6 +1,6 @@
 {
-  "versionCode": 2,
-  "versionName": "0.2.3",
-  "apkUrl": "https://raw.githubusercontent.com/The1Orange/paolemo-release/main/paolemo-0.2.3.zip",
-  "notes": "1. 新增 App 版本页，有新版时「我的」页出现红点\n2. 启动时弹一次更新提示，可以选择「以后再说」\n3. 朋友设置页可以查看对方邮箱\n4. 修复注册后好友码没登记到云端的问题"
+  "versionCode": 11,
+  "versionName": "0.2.12",
+  "apkUrl": "https://raw.githubusercontent.com/The1Orange/paolemo-release/main/paolemo-0.2.12.zip",
+  "notes": "1. 运动团成员头像终于从云端拉下来了：团队信息页、群聊气泡都显示真头像，不再是首字圆\n2. 头像本来就存在云端 users.avatar_url 字段里（内联 base64），以前团队两处只看本地缓存，从不读这个字段 —— 这轮补上了\n3. 首次进团/进群会自动把成员头像解出来落成本地文件，之后直接读文件，不重复下载\n4. 群聊一次云端连接顺带把好友码和头像一起同步，不额外多跑一次查询\n5. 找头像先按好友码、再按邮箱，没登记好友码的成员也能显示头像\n6. 没设过头像的人仍然显示首字圆（这是占位，不是没加载）；团标仍是团名首字色块"
 }
