@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "0.2.14",
-  "apkUrl": "https://raw.githubusercontent.com/The1Orange/paolemo-release/main/paolemo-0.2.14.zip",
+  "versionCode": 14,
+  "versionName": "0.2.15",
+  "apkUrl": "https://raw.githubusercontent.com/The1Orange/paolemo-release/main/paolemo-0.2.15.zip",
   "notes": "1. 修掉「更新检查永远失败」：调试包原来把版本清单写死成电脑上的 10.0.2.2，真机根本连不上，现在自动换成线上清单\n2. 备用源从 2 个加到 4 个，同时并发试：raw 直连、jsDelivr、ghfast.top、ghproxy.net，谁先回 200 用谁\n3. 连不上时不再显示「没查到新版本」，改成「这次没连上版本库」——免得被读成「我已经是最新的」\n4. 上一版 0.2.13 的登录全量恢复一并带上（资料/头像/跑步/心率/睡眠/好友/团/会话）\n5. 下载安装包也跟着清单来源走：清单是镜像拿到的，安装包就优先走镜像，少踩一次被墙"
 }
