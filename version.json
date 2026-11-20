@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "0.2.23",
-  "apkUrl": "https://raw.githubusercontent.com/The1Orange/paolemo-release/main/paolemo-0.2.23.zip",
-  "notes": "1. 天梯页顶上多了「跑步 / 骑行」两个切换，两张榜各算各的：跑步榜只认跑步和室内跑步，骑行榜只认户外骑行，不再把骑行里程混进跑步成绩里\n2. 骑行榜同样是云端全站榜：按本周骑行里程排前 20，能看到参与人数和我自己的名次\n3. 切到骑行时，本机成绩卡显示「本周已骑」、平均速度（km/h）、最高均速，周目标那一栏换成「骑行只记里程，不套跑步周目标」\n4. 骑行记录现在能同步到云端了：之前写的是 ride，库里 sport_type 是 cycling，严格模式下插入被拒，所以一条骑行都没上云；改成 cycling 后修复\n5. 从云端拉记录时也认 cycling / indoor_run 了，不会再把手上的骑行记录认成跑步"
+  "versionCode": 23,
+  "versionName": "0.2.24",
+  "apkUrl": "https://raw.githubusercontent.com/The1Orange/paolemo-release/main/paolemo-0.2.24.zip",
+  "notes": "1. 修了「明明有新版本却显示已是最新」：以前四个清单地址都连不上时，会悄悄回退到云端库的版本记录，而那张表很旧，比出来就是「没新版」，还什么都不提示\n2. 现在这种情况会明确写「这次没连上版本库」并说明线上地址试了几个、云端库最新只到哪一版，不再把「没查到」当成「已最新」\n3. 清单如果是靠云端库兜底读到的，版本页会标一句「本次版本信息来自云端库」，再决定要不要下载\n4. 天梯页的骑行榜、骑行记录上云修复同 0.2.23"
 }
