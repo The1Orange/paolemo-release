@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "0.2.25",
-  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.25/paolemo-0.2.25.apk",
-  "notes": "1. 群聊里的名字改成「好友备注 > 团内昵称 > 原来的昵称」：在团队信息页改完团内昵称，聊天窗口里以前发出的消息也会立刻跟着改名\n2. 版本检查不再「谁先返回就用谁」，改成把几个清单源收齐、取版本号最大的那份。以前带缓存的源抢先返回旧清单，就会明明有新版却显示已是最新\n3. 去掉会返回旧缓存的 jsDelivr，补上 gh-proxy.com；拿到比本机新的清单就立刻结束，不再干等十几秒\n4. 网络全不通时会明确提示没连上，不再默默当成已最新"
+  "versionCode": 25,
+  "versionName": "0.2.26",
+  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.26/paolemo-0.2.26.apk",
+  "notes": "1. 「您还有一趟运动没结束」弹窗点「结束」，现在会先把这趟存下来、再打开结算页，不再静默丢掉\n2. 弹窗换成深色星空青底，说明文案改成「点结束会立刻保存这一趟」\n3. 结算页步数补全：手机没有计步传感器时按距离估算，不再显示 0 步\n4. 运动记录里的米数和结算页统一四舍五入，不会出现 185 米记成 184 米"
 }
