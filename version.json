@@ -1,6 +1,6 @@
 {
-  "versionCode": 49,
-  "versionName": "0.2.50",
-  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.50/paolemo-0.2.50.apk",
-  "notes": "1. 睡眠页的日期改成和「卡路里」详情页一样：标题下面一行「2026年11月22日 ▾」，点它直接开日历换一天\n2. 不再单独挂一个「选择日期 ›」，一个下拉三角就够，和其它详情页统一\n3. 看历史那天时日期文字变青色，「回到今天」在右边出现；回到今天就恢复成原来的一行灰字\n4. 选日期、看某一天、补录某一天、未来日期拦截，行为跟上一版完全一样，只是入口长得不一样了"
+  "versionCode": 51,
+  "versionName": "0.2.52",
+  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.52/paolemo-0.2.52.apk",
+  "notes": "1. 「我的」页新增「分享下载」入口：一张带图标、二维码、版本号的下载卡，扫码就打开 Gitee 最新发布页\n2. 二维码里存的是发布页地址（releases/latest），不是某个 apk 直链，所以以后发新版也不用换码\n3. 页面上可以「保存图片」把整张卡存进相册（Pictures/Paolemo），也能「复制链接」或「浏览器打开」\n4. 二维码编码顺手修了一个兼容问题：纯英文链接不再塞 UTF-8 的 ECI 头，老扫码器识别更快更稳（好友码、勋章分享码一起受益）"
 }
