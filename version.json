@@ -1,6 +1,6 @@
 {
-  "versionCode": 60,
-  "versionName": "0.2.61",
-  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.61/paolemo-0.2.61.apk",
-  "notes": "1. 撤回提示只给昵称上星空蓝，「撤回了一条消息」保持灰色\n2. 「重新编辑」仍是星空蓝加粗，点一下把原文放回输入框\n3. 群聊 @ 成员面板、实时筛选、点选回填、撤回留痕均保持不变"
+  "versionCode": 61,
+  "versionName": "0.2.62",
+  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.62/paolemo-0.2.62.apk",
+  "notes": "1. 小团AI 不再把「不是我跑的」当成「我的数据」口令，日常聊天走模型而不是固定模板\n2. 发排行榜截图时先判断是榜单，明确第一名是谁，不再把榜一当成发图人的成绩\n3. 被纠正时先承认/澄清再回答；回复上限放宽到三句，减少复读感\n4. 图片分支带上最近聊天，分不清归属时先问「这是你的记录吗」"
 }
