@@ -1,6 +1,6 @@
 {
-  "versionCode": 61,
-  "versionName": "0.2.62",
-  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.62/paolemo-0.2.62.apk",
-  "notes": "1. 小团AI 不再把「不是我跑的」当成「我的数据」口令，日常聊天走模型而不是固定模板\n2. 发排行榜截图时先判断是榜单，明确第一名是谁，不再把榜一当成发图人的成绩\n3. 被纠正时先承认/澄清再回答；回复上限放宽到三句，减少复读感\n4. 图片分支带上最近聊天，分不清归属时先问「这是你的记录吗」"
+  "versionCode": 62,
+  "versionName": "0.2.63",
+  "apkUrl": "https://gitee.com/Cheninside/paolemo-release/releases/download/0.2.63/paolemo-0.2.63.apk",
+  "notes": "1. 小团AI 不再只在被 @ 时开口：群里最近 5 分钟有人聊天，它也会像团友一样接一句\n2. 语气改成老团友，不再客服腔：短句、会接梗、最多三句 120 字；被纠正先承认\n3. 可以发大表情：模型只回一个 emoji 时发成表情消息；文字回复最多带 1 个 emoji\n4. 普通聊天 45 秒节流、提问 90 秒、图片 40 秒，每天最多 60 条，避免刷屏\n5. 修好表情消息被当成图片 base64 解码导致空白的问题"
 }
